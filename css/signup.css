@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../image/student1.jpg");
+    background-size: cover;
+    width: 100%;
+}
+a{
+    margin-left: 10px;
+    text-decoration: none;
+}
+h1,h4{
+    text-align: center;
+}
+.contain{
+    margin: 0 auto;
+    width:360px;
+    height: 500px;
+    background-color: rgb(223, 212, 151,0.5);
+    -webkit-backdrop-filter: 0.2;
+    border: 2px solid gray;
+    border-radius: 30px;
+    padding: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+input,label,button{
+    font-size: 1.2rem;
+}
+button{
+    margin-top: 15px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(240, 184, 79);
+}
+button:hover{
+    background-color: rgb(252, 203, 111);
+}
+input{
+    outline: none;
+    /* border: 2px solid gray; */
+    border-radius: 5px;
+}
+input::placeholder{
+    text-align: center;
+}
+p{
+    font-size: 1rem;
+    text-align: center;
+    margin: 5px 0;
+}
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup > a{
+    font-size: 1.2rem;
+}
